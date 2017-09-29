@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_sisar_salon"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#333333"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mrosarioinc.proyectofinal.SisarSalon" >
+
+
+    <TextView
+        android:text="Salon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="22dp"
+        android:layout_y="24dp"
+        android:id="@+id/idSalon"
+        android:fontFamily="serif"
+        android:typeface="normal"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:textColor="#00a0b3" />
+
+
+    <Button
+        android:text="Activar/Desactivar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="140dp"
+        android:layout_y="440dp"
+        android:id="@+id/SetActivo" />
+
+    <EditText
+        android:hint="Nom. Maestro"
+        android:layout_width="184dp"
+        android:layout_height="wrap_content"
+        android:layout_x="24dp"
+        android:layout_y="84dp"
+        android:id="@+id/Maestro"
+        android:fontFamily="serif"
+        android:typeface="normal"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:textColor="#00a0b3"
+        android:textColorHint="#00a0b3" />
+
+    <EditText
+        android:hint="Grupo"
+        android:layout_width="184dp"
+        android:layout_height="wrap_content"
+        android:layout_x="25dp"
+        android:layout_y="138dp"
+        android:id="@+id/Grupo"
+        android:fontFamily="serif"
+        android:typeface="normal"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:textColor="#00a0b3"
+        android:textColorHint="#00a0b3"/>
+
+    <EditText
+        android:hint="Hora"
+        android:layout_width="184dp"
+        android:layout_height="wrap_content"
+        android:layout_x="26dp"
+        android:layout_y="199dp"
+        android:id="@+id/Hora"
+        android:fontFamily="serif"
+        android:typeface="normal"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:textColor="#00a0b3"
+        android:textColorHint="#00a0b3" />
+
+    <Switch
+        android:text="Sisar  "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="23dp"
+        android:layout_y="258dp"
+        android:textColor="#00a0b3"
+        android:id="@+id/Estado" />
+</AbsoluteLayout>
+
+
+
+

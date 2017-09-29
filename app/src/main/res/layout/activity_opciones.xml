@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_opciones"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mrosarioinc.proyectofinal.Opciones">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:layout_margin="1dp"
+        android:onClick="onTableRowClick"
+        android:id="@+id/one">
+
+        <TextView
+            android:text="Registrar nuevo usuario \n \n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="66dp"
+            android:layout_y="20dp"
+            android:id="@+id/Registro"
+            android:fontFamily="serif"
+            android:typeface="normal"
+            android:textSize="30sp"
+            android:textAlignment="gravity"
+            android:textColor="#969494" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:onClick="onTableRowClick"
+        android:layout_margin="3dp"
+        android:id="@+id/two">
+
+        <TextView
+            android:text="Cerrar Sesion \n \n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="66dp"
+            android:layout_y="20dp"
+            android:id="@+id/Cerrar"
+            android:fontFamily="serif"
+            android:typeface="normal"
+            android:textSize="30sp"
+            android:textAlignment="gravity"
+            android:textColor="#969494" />
+
+
+    </TableRow>
+
+
+</TableLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_crear_usuario"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#333333"
+    tools:context="mrosarioinc.proyectofinal.CrearUsuario">
+
+
+    <EditText
+        android:id="@+id/RegistrarNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Usuario"
+        android:textColorHint="#969494"
+        android:textColor="#00a0b3"
+        android:ems="10"
+        android:layout_marginBottom="20dp"
+        android:layout_above="@+id/Pass"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_x="-1dp"
+        android:layout_y="96dp">
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/Pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColorHint="#969494"
+        android:textColor="#00a0b3"
+        android:inputType="textPassword"
+        android:hint="Contraseña"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_x="2dp"
+        android:layout_y="148dp" />
+
+    <EditText
+        android:id="@+id/repetirPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColorHint="#969494"
+        android:textColor="#00a0b3"
+        android:inputType="textPassword"
+        android:hint="Repetir Contraseña"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/Pass"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_x="0dp"
+        android:layout_y="207dp" />
+
+    <Button
+        android:text="Registrar!"
+        android:layout_width="102dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnRegistrar"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:layout_x="202dp"
+        android:layout_y="280dp" />
+
+    <TextView
+        android:text="Registrar nuevo usuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="6dp"
+        android:layout_y="12dp"
+        android:id="@+id/Titulo"
+        android:fontFamily="serif"
+        android:typeface="normal"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:textColor="#00a0b3"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+</AbsoluteLayout>
